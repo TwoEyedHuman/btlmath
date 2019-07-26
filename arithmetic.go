@@ -32,3 +32,16 @@ func Multiply (x []float32, y float32) ([]float32) {
     }
     return ret
 }
+
+func FibonacciSlice(n int) ([]int) {
+    ret := make([]int, n)
+
+    ret[0] = 0
+    ret[1] = 0
+
+    for i:= 2; i < n; i++ {
+        ret[i] = ret[i-1] + ret[i-2]
+    }
+    
+    return ret
+}
