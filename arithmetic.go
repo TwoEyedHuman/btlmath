@@ -1,4 +1,4 @@
-package main
+package btlmath
 
 func IntAbs (x int) (y int) { //an integer absolute value function
 	if x >0 {
